@@ -22,10 +22,10 @@ if (isset($_GET['id'])) {
 </head>
 <body>
 <nav>
-   <a href="http://localhost/amazon_betal/amazon_final/#"><img src="logo_amazon.png" alt="Logo Amazon"></a>
+   <a href="http://localhost/amazon_beta_2/amazon_final/"><img src="logo_amazon.png" alt="Logo Amazon"></a>
    <ul>
-       <li><a href="http://localhost/amazon_betal/amazon_final/#">Accueil</a></li>
-       <li><a href="http://localhost/amazon_betal/amazon_final/panier.php">Panier</a></li>
+       <li><a href="http://localhost/amazon_beta_2/amazon_final/">Accueil</a></li>
+       <li><a href="http://localhost/amazon_beta_2/amazon_final/panier.php">Panier</a></li>
    </ul>
 </nav>
 <nav class="second_nav">
@@ -46,7 +46,7 @@ if (isset($_GET['id'])) {
         <p><?php echo $product["overview"] ?></p>
         <p><?php echo $product["overview1"] ?></p>
         <p><?php echo $product["overview2"] ?></p>
-        <a href="http://localhost/amazon_betal/amazon_final/panier.php"><button><p><?php echo $product["overview3"] ?></p></button></a>
+        <a href="http://localhost/amazon_beta_2/amazon_final/panier.php"><button><p><?php echo $product["overview3"] ?></p></button></a>
         <p><?php echo $product["price"] ?> Euros</p>
         
     </div>

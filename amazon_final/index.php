@@ -10,8 +10,8 @@
 
 <!--Nav_bar_1-->
 <nav>
-   <a href=""><img src="logo_amazon.png" alt="" srcset=""></a>
-   <li><a href="http://localhost/amazon_betal/amazon_final/panier.php">Panier</a></li>
+   <a href="http://localhost/amazon_beta_2/amazon_final/"><img src="logo_amazon.png" alt="" srcset=""></a>
+   <li><a href="http://localhost/amazon_beta_2/amazon_final/panier.php">Panier</a></li>
 </nav>
 
 
@@ -20,11 +20,11 @@
 <nav class="second_nav">
 
             <div class="text_left">
-                <a href="">Meilleurs Ventes</a>
-                <a href="">Amazon Basics</a>
-                <a href="">Ventes Flash</a>
-                <a href="">Dernières Nouveautés</a>
-                <a href="">Idées Cadeaux</a>              
+                <a href="#">Meilleurs Ventes</a>
+                <a href="#">Amazon Basics</a>
+                <a href="#">Ventes Flash</a>
+                <a href="#">Dernières Nouveautés</a>
+                <a href="#">Idées Cadeaux</a>              
             </div>
 
             <div class="text_right">

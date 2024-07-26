@@ -9,9 +9,9 @@
 </head>
 <body>
 <nav>
-   <a href="http://localhost/amazon_betal/amazon_final/#"><img src="logo_amazon.png" alt="Logo Amazon"></a>
+   <a href="http://localhost/amazon_beta_2/amazon_final/"><img src="logo_amazon.png" alt="Logo Amazon"></a>
    <ul>
-       <li><a href="http://localhost/amazon_betal/amazon_final/#">Accueil</a></li>
+       <li><a href="http://localhost/amazon_beta_2/amazon_final/#">Accueil</a></li>
       
    </ul>
 </nav>

@@ -2,59 +2,51 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #131212;
+    background-color: #232f3e;
 }
 
 
 /*-------------NAV_1--------------*/
 nav{
-    width: 100vw;
-    height: 80px;
+    background-color: #232f3e;
+    padding: 10px 20px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    line-height: 80px;
-    background-color: #0F1111;
+    align-items: center;
+    justify-content: space-between;
 }
 
 a{
     color: #fff;
-    font-size:26px;
+    font-size:15px;
     text-decoration: none;
 }
 
 nav li{
-    width: 140px;
-    height: 90px;
-    align-items: center;
+    margin-right: 20px;
+    list-style-type: none;
 }
 
-nav img{
-    margin-top: 23px;
-    width: 140px;
-    height: 42px;
-    
+nav img {
+    height: 40px;
 }
 
 /*-------------NAV_2--------------*/
 
 .second_nav{
-    width: 100vw;
-   /* height: 60px;*/
+    background-color: #37475a;
+    padding: 10px 20px;
     display: flex;
-    flex-direction: row;
-    background-color: rgb(31, 29, 33);
+    justify-content: space-between;
 }
 
 .second_nav a{
-    font-size: 20px;
-  /*  justify-content: space-between; */
-    margin-left: 28px ; 
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
 }
 
 .text_right{
-    background-color:  rgb(31, 29, 33);
-    width: 300px;
     justify-content: end;
 }
 
@@ -69,30 +61,25 @@ nav img{
     padding-left: 30px;
     padding-right: 30px;
     margin-left: 45px;
-    
 }
 
 
 .product-item {
-    background-color: lightgrey;
-    border: 3px solid darkgrey;
+    background-color: #fff;
+    border: 3px solid #fff;
     border-radius: 10px;
     padding: 20px;
     text-align: center;
     width: 300px;
-   /* justify-content: center;
-    margin-left: 37%;
-    margin-top: 9%;*/
 }
 
 .product-item_page_produit{
-    background-color: lightgrey;
-    border: 3px solid darkgrey;
+ 
     border-radius: 10px;
     padding: 20px;
     text-align: center;
     width: 300px;
- justify-content: center;
+   justify-content: center;
     margin-left: 37%;
     margin-top: 9%;
 }
@@ -129,28 +116,3 @@ nav img{
     margin-top: 20px;
 }
 
-/******ALPAga********/
-.location_alpaga {
-    position: relative;
-    color: violet;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    text-align: center; 
-    margin-top: 20px;
-    margin-left: 25px;
-}
-
-
-.alpaga{
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    border-radius: 20px;
-    width: 300px;
-    left: 38%;
-   cursor: pointer;
-   border-style: dotted;
-   border-color: #fff;
-   margin: 20px;
-}
